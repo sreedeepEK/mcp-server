@@ -15,9 +15,9 @@ Then run:
 python client.py
 ```
 
-What it does
-AI uses React agent to decide when to think and when to call a tool
+What it does:      
 
-Connects AI to external tools.
-Gets accurate answers without manual logic.
+AI uses React agent to decide when to think and when to call a tool.                
+Connects AI to external tools. Gets accurate answers without manual logic.
+
 
