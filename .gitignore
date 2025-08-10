@@ -1,0 +1,5 @@
+.vscode
+.venv
+.python_version
+.uv.lock
+uv.lock
