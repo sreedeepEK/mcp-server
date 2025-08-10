@@ -37,8 +37,8 @@ async def main():
         
         model, tools )
     
-    response = await agent.ainvoke(
-        {"messages":[{"role":"user", "content": " what is 2+2 x 456 ?"}]}
+    response = await agent.ainvoke(  
+        {"messages":[{"role":"user", "content": " what is 2+2 x 456?"}]}
     )
     
     print("Response: ", response['messages'][-1].content)
