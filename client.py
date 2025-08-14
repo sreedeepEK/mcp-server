@@ -16,11 +16,7 @@ async def main():
                 "command" : "python",
                 "args": ['./mathserver.py'],
                 "transport": "stdio"
-            },
-            
-            "weather":{
-                "url" : "http://localhost:8000/mcp",
-                "transport": "streamable_http"
+    
             }
         }
         
